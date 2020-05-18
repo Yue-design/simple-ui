@@ -29,4 +29,6 @@
 ## Nest Many Elements within a Single div Element
 ## Declare the Doctype of an HTML Document
 ## Define the Head and Body of an HTML Document
+<p>head element:</p>
+<p>Metadata elements, such as link, meta, title, and style, typically go inside the head element.</p>
 # Basic CSS
