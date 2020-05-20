@@ -1,8 +1,11 @@
 # Basic HTML&HTML5 <p></p>
 ## Introduction to Basic HTML & HTML5
 <p> HTML, or HyperText Markup Language, is a markup language used to describe the structure of a web page. </p>
+
 ## Say Hello to HTML Elements
+
 ## Headline with the h2 Element
+
 ## Inform with the Paragraph Element
 ## Fill in the Blank with Placeholder Text
 ## Uncomment HTML
