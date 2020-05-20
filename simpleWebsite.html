@@ -1,0 +1,85 @@
+<!--
+    Program Goals:
+    1. Build a simple website with header, body and footer;
+    2. Body should have at least 3 sections, each section has a list.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIMPLE WEBSITE</title>
+        <link rel="stylesheet" type="text/css" href="simplewebsite.css"/>
+        <style>
+        h1 {
+            background-color: black;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        #box-container {
+            display: flex;
+            height: 500px;
+            flex-direction: row;
+        }
+        #box {
+            background-color: white;
+            height: 25%;
+            width: 25%;
+            border-right: 1px black solid;
+        }
+        p {
+            background-color: gray;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            /* font-family:"Times New Roman"; */
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Something About Me</h1>
+        <div id="box-container">
+            <div id="box"></div>  
+                <section>  
+                    <h2>My favourite food</h2>
+                    <ul>
+                        <li>Pizza</li>
+                        <li>Burger</li>
+                        <li>Rice</li>
+                    </ul>
+                </section> 
+            <div id="box"></div>
+                <section>
+                    <h2>My favourite drink</h2>
+                    <ol>
+                        <li>Water</li>
+                        <li>Juice</li>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                    </ol>
+                </section>
+            <div id="box">
+                <section>
+                    <h2>My hobbies</h2>
+                    <ul>
+                        <li>Sing</li>
+                        <li>Running</li>
+                        <li>Coffee</li>
+                        <li>Dancing</li>
+                    </ul>
+                 </section>
+            </div>
+            <div id="box">
+                <section>
+                    <h2>Anything else?</h2>
+                    <ol>
+                        <li>Anything</li>
+                    </ol>
+                </section>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p>Copyright@Authright</p>
+    </footer>
+</html>
