@@ -2,43 +2,29 @@
     Program Goals:
     1. Build a simple website with header, body and footer;
     2. Body should have at least 3 sections, each section has a list.
+    Next Step:
+    1. Override
+    2. div,section,h2 alignment
+    3. box
 -->
 <!DOCTYPE html>
 <html>
     <head>
         <title>SIMPLE WEBSITE</title>
-        <link rel="stylesheet" type="text/css" href="simplewebsite.css"/>
+        <link rel="stylesheet" type="text/css" href="simpleWebsite.css"/>
         <style>
-        h1 {
-            background-color: black;
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
-        #box-container {
-            display: flex;
-            height: 500px;
-            flex-direction: row;
-        }
-        #box {
-            background-color: white;
-            height: 25%;
-            width: 25%;
-            border-right: 1px black solid;
-        }
-        p {
-            background-color: gray;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            /* font-family:"Times New Roman"; */
-        }
+            #box-last {
+                display: flex; 
+                background-image: linear-gradient(to right, white, whitesmoke);
+                height: 100%;
+                width: 25%;
+            }
         </style>
     </head>
     <body>
         <h1>Something About Me</h1>
         <div id="box-container">
-            <div id="box"></div>  
+            <div id="box"> 
                 <section>  
                     <h2>My favourite food</h2>
                     <ul>
@@ -47,7 +33,8 @@
                         <li>Rice</li>
                     </ul>
                 </section> 
-            <div id="box"></div>
+            </div> 
+            <div id="box">
                 <section>
                     <h2>My favourite drink</h2>
                     <ol>
@@ -58,6 +45,7 @@
                         <li>Milk</li>
                     </ol>
                 </section>
+            </div>
             <div id="box">
                 <section>
                     <h2>My hobbies</h2>
@@ -69,7 +57,7 @@
                     </ul>
                  </section>
             </div>
-            <div id="box">
+            <div id="box-last">
                 <section>
                     <h2>Anything else?</h2>
                     <ol>

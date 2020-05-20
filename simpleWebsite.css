@@ -1,0 +1,27 @@
+h1 {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#box-container {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+}
+#box {
+    display: flex; 
+    background-image: linear-gradient(to right, white, whitesmoke);
+    height: 100%;
+    width: 25%;
+    border-right: 1px black solid;
+}
+p {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
