@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="catPhotoApp.css">
+        <title>My First Website</title>
+    </head>
+    <body>
+        <h1>Introduction to Basic HTML and HTML5</h1>
+        <p>HTML, or HyperText Markup Language, is a markup language used to describe the structure of a web page. It uses a special syntax or notation to organize and give information about the page to the browser. Elements usually have opening and closing tags that surround and give meaning to content. For example, there are different tag options to place around text to show whether it is a heading, a paragraph, or a list.</p>
+        <p>The HyperText part of HTML comes from the early days of the web and its original use case. Pages usually contained static documents that contained references to other documents. These references contained hypertext links used by the browser to navigate to the reference document so the user could read the reference document without having to manually search for it.</p>           
+        <p>As web pages and web applications grow more complex, the W3 Consortium updates the HTML specification to ensure that a webpage can be shown reliably on any browser. The latest version of HTML is HTML5.</p>      
+        <p>This section introduces how to use HTML elements to give structure and meaning to your web content.</p>
+        <h2>CatPhotoApp</h2>
+        <main>
+            <p>click <a href="https://www.google.com/">here</a> for more cat photos.</p>
+            <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a> <!-- alt: to add a text description -->
+            <div>
+                <p>Things cat love: </p>
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <p>Top three things cat hate: </p> <!-- we need an ordered list 
+                                                        when we have exact numbers-->
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+            </div>
+            <form action="/submit-cat-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor">Indoor</label>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor">Outdoor</label></br>
+
+                <label for="loving"><input id="loving" type="checkbox" name="personality">Loving</label>
+                <label for="lazy"><input id="lazy" type="checkbox" name="personality">Lazy</label>
+                <label for="energetic"><input id="energetic" type="checkbox" name="personality">Energetic</label><br>
+
+                <input type="text" placeholder="cat photo URL">
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+    <footer>
+        Copyright Cat Photo App
+    </footer>
+    <script></script>
+</html>
