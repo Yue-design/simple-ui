@@ -1,14 +1,12 @@
 # HTML & CSS & JacaScript
 
-## A basic HTML webpage: Cat Photo App
-## <div> tag: Division — a generic container for a block of HTML. 
+## A basic HTML webpage: Cat Photo App 
 
 ## A Simple Website: SomethingAboutMe(HTML&CSS)
 
 ## HTML5
-[HTML tags](https://htmldog.com/references/html/tags/span/)
 
-## CSS
-
-## A Personal Website
+## A Personal Website - JS
 ![alt text](https://github.com/Yue-design/simple-website/blob/master/personalWebsite/Annotated%20home%20page%20wireframe.png)
+
+## Laptop Store - Nodejs
