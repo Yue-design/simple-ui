@@ -1,8 +1,8 @@
 # HTML & CSS & JacaScript
 
-## A basic HTML webpage: Cat Photo App 
+## A Simple Webpage
 
-## A Simple Website: SomethingAboutMe(HTML&CSS)
+## A webpage with basic html and css: Cat Photo App 
 
 ## HTML5
 
