@@ -1,0 +1,32 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 16px;
+  --pri-cl: #ddd;
+  --pri-bgcl: #222226;
+  --sec--bgcl: #333338;
+}
+body{
+  color: var(--pri-cl);
+  background: var(--pri-bgcl);
+  font-family: 'Nunito', sans-serif;
+}
+.header{
+  background: var(--sec--bgcl);
+
+}
+.header h1{
+  padding: 10px 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.content{
+  width: 600px;
+  margin: 0 auto;
+}
+.desc{
+  margin: 10px;
+}
