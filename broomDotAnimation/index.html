@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Broomstick and Dot Animation</title>
+  <style>
+    body {
+      padding: 50px;
+    }
+    #title {
+      text-align: center;
+      animation: drop 1s;
+    }
+    @keyframes drop {
+      0% {
+        transform: translateY(-100px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+    #container {
+      background-color: skyblue;
+      height: 300px;
+      text-align: center;
+    }
+    #broom {
+      /* animation: fly 2s infinite; */
+      animation-name: fly;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      /* animation-direction: alternate; */
+      /* animation-timing-function: ease-in; */
+      animation-timing-function: linear;
+    }
+    @keyframes fly {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: .5;
+      }
+      100% {
+        opacity: 0;
+      }
+      /* from {
+        transform: translateY(20px);
+      }
+      50% {
+        transform: translateY(60px);
+      }
+      to {
+        transform: translateY(20px);
+      } */
+    }
+    #about {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 24px;
+      animation-name: note;
+      animation-duration: 1s;
+      animation-iteration-count: 5s;
+      animation-delay: forwards;
+      /* animation-fill-mode: ; */
+    }
+    @keyframes note {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(700px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1 id="title">The Broomstick</h1>
+    <img id="broom" src="https://github.com/robgmerrill/online-course-images/blob/master/broom.png?raw=true"/>
+    <p id="about">CSS Anmination</p>
+  </div>
+  <div>
+    
+  </div>
+</body>
+</html>
