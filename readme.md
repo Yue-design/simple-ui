@@ -6,6 +6,8 @@
 
 ## CSS Animation: broomDot
 
+## jQuery: multipleButtons
+
 ## A Personal Website - JS
 ![alt text](https://github.com/Yue-design/simple-website/blob/master/personalWebsite/Annotated%20home%20page%20wireframe.png)
 
