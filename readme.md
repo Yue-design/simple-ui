@@ -6,6 +6,8 @@
 
 ## CSS Animation: broomDot
 
+## CSS Transitions: Different Rate
+
 ## jQuery: multipleButtons
 
 ## Sass: create reusable css declarations with @mixin
