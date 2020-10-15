@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Transitions</title>
+    <style>
+      #container {
+        width: 100%;
+        height: 250px;
+        background-color: #9ad3de;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #clown {
+        transition-property: transform;
+        transition-duration: 0.1s;
+      }
+      #clown:hover {
+        transform: scale3d(1.2, 1.2, 1) rotate(45deg);
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        background: gray;
+        transition: width 2s;
+      }
+      div:hover {
+        width: 300px;
+      }
+      #div1 {
+        transition-timing-function: linear;
+      }
+      #div2 {
+        transition-timing-function: ease;
+      }
+      #div3 {
+        transition-timing-function: ease-in;
+      }
+      #div4 {
+        transition-timing-function: ease-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <img
+        id="clown"
+        src="https://raw.githubusercontent.com/robgmerrill/online-course-images/master/clown.png"
+      />
+    </div>
+    <div id="div1">Regular Speed</div>
+    <div id="div2">Slow, Fast, Slow</div>
+    <div id="div3">Slow Start</div>
+    <div id="div4">Slow End</div>
+  </body>
+</html>
