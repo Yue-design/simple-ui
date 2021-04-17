@@ -1,5 +1,5 @@
 const logKey = (e) => {
-  const log = document.getElementById('log');
+  const log = document.querySelector('.log');
   log.textContent += e.code;
 }
 
